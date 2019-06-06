@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -84,11 +85,19 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  margin-left: 60px;
 }
-.buttons svg {
-  width: 24px;
-  height: 24px;
-  margin: 0 20px;
+.buttons .like {
+  background: url(/喜欢.87fba886.svg);
+}
+.buttons .download {
+  background: url(/下载.763efbe8.svg);
+}
+.buttons .share {
+  background: url(/分享.c09d6892.svg);
+}
+.buttons .comment {
+  background: url(/分享.c09d6892.svg);
 }
 
 @keyframes rotate {

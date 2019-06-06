@@ -91,17 +91,25 @@ $color4:#0025f1;
         }
     }
 }
+
 .buttons{
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    svg{
-        width:24px;
-        height:24px;
-        margin: 0 20px;
-    }
-
+    margin-left: 60px;
 }
+    .like{
+        background: url(../svg/喜欢.svg);
+    }
+    .download{
+        background: url(../svg/下载.svg);
+    }
+    .share{
+        background: url(../svg/分享.svg);
+    }
+    .comment{
+        background: url(../svg/更多.svg);
+    }
 
 
 @keyframes rotate{
