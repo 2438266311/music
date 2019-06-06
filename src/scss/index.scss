@@ -97,7 +97,7 @@ $color4:#0025f1;
     justify-content: center;
     margin-top: 20px;
     margin-left: 60px;
-}
+    
     .like{
         background: url(../svg/喜欢.svg);
     }
@@ -108,8 +108,9 @@ $color4:#0025f1;
         background: url(../svg/分享.svg);
     }
     .comment{
-        background: url(../svg/更多.svg);
+        background: url(../svg/评论.svg);
     }
+}
 
 
 @keyframes rotate{
